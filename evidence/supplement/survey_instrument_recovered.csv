@@ -1,0 +1,13 @@
+Question_ID,Topic,Recovered_question_wording,Recovered_response_options_or_values,Paper2_use
+Q01,Participant role,What is your primary role?,Observed categories: Developer; Executive; Project Manager; Business Analyst; AI Governance Consultant; Quality Manager,Profile only
+Q02,Enterprise-system experience,How many years have you worked with enterprise systems?,<1 year; 1-3 years; 4-6 years; 7+ years,Profile only
+Q03,KPI discovery,"How difficult is it to find KPIs in your current software, projects...codebase?",1; 2; 3; 4; 5,Archived distribution retained; not used in the main Paper 2 results
+Q04,KPI misinterpretation,How often do KPI misinterpretations occur due to unclear documentation?,Daily; Weekly; Monthly; Rarely; Never,Analyzed in Paper 2
+Q05,Interface intuitiveness,How intuitive do you think the KPI Auto Extractor Tool's and Bluebook Generator interface to use it in your work?,1; 2; 3; 4; 5,Archived distribution retained; not used in the main Paper 2 results
+Q06,Expected time saved,How much time do you think the KPI Auto Extractor Tool & interactive bluebook save per project compared to manual methods?,<1 hour; 1-4 hours; 5-8 hours; 1 day or more,Analyzed in Paper 2
+Q07,Expected reporting-error reduction,Do you think the tool will reduce the KPI reporting errors?,Yes significantly; Slightly; No change; Unsure,Analyzed in Paper 2
+Q08,Stakeholder understanding,How would you rate non-technical stakeholders' understanding of Bluebook outputs?,1; 2; 3; 4; 5,Archived distribution retained; not used in the main Paper 2 results
+Q09,Enhancement priority,Rank these potential enhancements (1 = highest priority): [AI-assisted KPI prediction],1; 2; 3; 4,Not used in Paper 2
+Q10,Enhancement priority,Rank these potential enhancements (1 = highest priority): [Better visualization dashboards],1; 2; 3; 4,Not used in Paper 2
+Q11,Enhancement priority,Rank these potential enhancements (1 = highest priority): [API integrations],1; 2; 3; 4,Not used in Paper 2
+Q12,Enhancement priority,Rank these potential enhancements (1 = highest priority): [Customizable Bluebook templates],1; 2; 3; 4,Not used in Paper 2

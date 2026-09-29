@@ -1,0 +1,61 @@
+﻿Meeting No,Date,Day,Start Time KSA,End Time KSA,Duration Minutes,Duration Hours,Timezone,Phase,Status
+1,2025-02-04,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+2,2025-02-11,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+3,2025-02-18,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+4,2025-02-25,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+5,2025-03-04,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+6,2025-03-11,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+7,2025-03-18,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+8,2025-03-25,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+9,2025-04-01,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+10,2025-04-08,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+11,2025-04-15,Tuesday,14:00,15:00,60,1.0,Asia/Riyadh UTC+3,Phase 1 - Baseline,Completed
+12,2025-04-22,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 2 - Reduced 45-50m,Completed
+13,2025-04-29,Tuesday,14:00,14:45,45,0.75,Asia/Riyadh UTC+3,Phase 2 - Reduced 45-50m,Completed
+14,2025-05-06,Tuesday,14:00,14:45,45,0.75,Asia/Riyadh UTC+3,Phase 2 - Reduced 45-50m,Completed
+15,2025-05-13,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 2 - Reduced 45-50m,Completed
+16,2025-05-20,Tuesday,14:00,14:47,47,0.78,Asia/Riyadh UTC+3,Phase 2 - Reduced 45-50m,Completed
+17,2025-05-27,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+18,2025-06-03,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+19,2025-06-10,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+20,2025-06-17,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+21,2025-06-24,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+22,2025-07-01,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+23,2025-07-08,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+24,2025-07-15,Tuesday,14:00,14:45,45,0.75,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+25,2025-07-22,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+26,2025-07-29,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+27,2025-08-05,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+28,2025-08-12,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+29,2025-08-19,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+30,2025-08-26,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+31,2025-09-02,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+32,2025-09-09,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+33,2025-09-16,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+34,2025-09-23,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+35,2025-09-30,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+36,2025-10-07,Tuesday,14:00,14:45,45,0.75,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+37,2025-10-14,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+38,2025-10-21,Tuesday,14:00,14:45,45,0.75,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+39,2025-10-28,Tuesday,14:00,14:50,50,0.83,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+40,2025-11-04,Tuesday,14:00,14:40,40,0.67,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+41,2025-11-11,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+42,2025-11-18,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+43,2025-11-25,Tuesday,14:00,14:45,45,0.75,Asia/Riyadh UTC+3,Phase 3 - Variable 30-50m,Completed
+44,2025-12-02,Tuesday,14:00,14:35,35,0.58,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+45,2025-12-09,Tuesday,14:00,14:35,35,0.58,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+46,2025-12-16,Tuesday,14:00,14:32,32,0.53,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+47,2025-12-23,Tuesday,14:00,14:32,32,0.53,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+48,2025-12-30,Tuesday,14:00,14:35,35,0.58,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+49,2026-01-06,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+50,2026-01-13,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+51,2026-01-20,Tuesday,14:00,14:38,38,0.63,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+52,2026-01-27,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+53,2026-02-03,Tuesday,14:00,14:35,35,0.58,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+54,2026-02-10,Tuesday,14:00,14:35,35,0.58,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+55,2026-02-17,Tuesday,14:00,14:40,40,0.67,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+56,2026-02-24,Tuesday,14:00,14:35,35,0.58,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+57,2026-03-03,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+58,2026-03-10,Tuesday,14:00,14:38,38,0.63,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+59,2026-03-17,Tuesday,14:00,14:40,40,0.67,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed
+60,2026-03-24,Tuesday,14:00,14:30,30,0.5,Asia/Riyadh UTC+3,Phase 4 - Short Focus 30-40m,Completed

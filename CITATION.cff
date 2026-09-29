@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the associated paper."
+title: "LEAP Paper 2: Explanation Fidelity Evidence"
+type: dataset
+authors:
+  - family-names: "Mouawad"
+    given-names: "Meshaal Obaid"
+    orcid: "https://orcid.org/0000-0002-1152-8324"
+version: "1.0.0"
+date-released: "2026-09-29"
+keywords:
+  - "key performance indicators"
+  - "software documentation"
+  - "traceability"
+  - "knowledge engineering"
+  - "explanation fidelity"

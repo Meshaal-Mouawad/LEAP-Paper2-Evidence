@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "file": "control_no_conflict_yield.py",
+      "source_archive": "JSS_Submtion 2.zip",
+      "source_member": "JSS_Submtion/evidence/01_software_state/committee_candidate_data/demo/sample_project/control_no_conflict_yield.py",
+      "sha256": "bcbe6f52920321e544374308ebcf180a12875b8752c2420c94aa036291195930",
+      "bytes": 1062
+    },
+    {
+      "file": "conflict_formula_margin.py",
+      "source_archive": "JSS_Submtion 2.zip",
+      "source_member": "JSS_Submtion/evidence/01_software_state/committee_candidate_data/demo/sample_project/conflict_formula_margin.py",
+      "sha256": "78cfb5e20447f19d36c1b25adcdf3d5542edc09199194f97bddabb6963067ef1",
+      "bytes": 675
+    },
+    {
+      "file": "ethylene_production_yield.html",
+      "source_archive": "JSS_Submtion 2.zip",
+      "source_member": "JSS_Submtion/software/LEAP/docs/_build/ethylene_production_yield.html",
+      "sha256": "0a217434501cbc54b35da7b46d8306ff3f472b5d7258da9471c5c36b14ae1f55",
+      "bytes": 46647
+    },
+    {
+      "file": "gross_margin_percentage.html",
+      "source_archive": "JSS_Submtion 2.zip",
+      "source_member": "JSS_Submtion/software/LEAP/docs/_build/gross_margin_percentage.html",
+      "sha256": "83b4dcc240818a783156c38bb3cc7572ad2a2796a2a5c2fe8b69115b9d0cd479",
+      "bytes": 50195
+    }
+  ]
+}
