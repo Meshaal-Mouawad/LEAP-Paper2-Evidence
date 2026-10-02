@@ -1,7 +1,7 @@
 {
   "upstream_repository": "fastapi/fastapi",
   "upstream_commit": "33d411dbc3236275dd64d200bfe18d5d60a49b2e",
-  "fastapi_version": "0.141.1",
+  "fastapi_version": "0.128.2",
   "pydantic_version": "2.13.4",
   "source_provenance": {
     "query_param_constraints.py": {
