@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "oracle": "CHECKER_CONTROL_ORACLE.csv",
+      "output": "CHECKER_VALIDATION_CASES.csv",
+      "oracle_cases": 18,
+      "missing": [],
+      "extra": [],
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "oracle": "ARTIFACT_MUTATION_ORACLE.csv",
+      "output": "MUTATED_ARTIFACT_CONTROLS.csv",
+      "oracle_cases": 14,
+      "missing": [],
+      "extra": [],
+      "mismatches": [],
+      "passed": true
+    }
+  ],
+  "interpretation": "Control labels are read from predeclared oracle tables separate from the released checker output."
+}

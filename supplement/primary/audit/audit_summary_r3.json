@@ -1,0 +1,41 @@
+{
+  "corpus": {
+    "dossiers": 28,
+    "needs_review": 19,
+    "validated": 9,
+    "generation_log_sha256": "b4efc7bcfea301ca376c24ffff9c71216a1374eb0f715c466b37a01d762d989f"
+  },
+  "defect_classes": {
+    "lineage_typing": {
+      "class_count": 1,
+      "affected_dossiers": 4,
+      "visible_instances": 12,
+      "dossiers": [
+        "ethylene_production_yield.html",
+        "flare_emission_recovery_rate.html",
+        "onspec_rate.html",
+        "polymer_melt_flow_index_mfi_variance.html"
+      ]
+    },
+    "guard_to_safeguard_binding": {
+      "class_count": 1,
+      "guard_instances": 10,
+      "affected_dossiers": 5,
+      "failure_instances": 5,
+      "preserved_instances": 5
+    },
+    "authority_language_template": {
+      "class_count": 1,
+      "eligible_unresolved_dossiers": 19,
+      "affected_dossiers": 19
+    }
+  },
+  "working_mechanism": {
+    "conflict_routing": {
+      "class_count": 1,
+      "eligible_explicit_conflict_dossiers": 6,
+      "preserved_dossiers": 6
+    }
+  },
+  "interpretation": "Three systematic generator/template defect classes plus one correctly operating conflict-routing mechanism; dossier/guard counts are repeated manifestations, not independent prevalence estimates."
+}

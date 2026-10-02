@@ -1,0 +1,3 @@
+example,source_status,published_status,outcome
+query_param_constraints,Query(deprecated=True),True,PASS
+deprecated_operation,"@app.get(..., deprecated=True)",True,PASS

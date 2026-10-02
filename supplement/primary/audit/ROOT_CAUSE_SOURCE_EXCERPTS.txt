@@ -1,0 +1,104 @@
+ROOT-CAUSE SOURCE EXCERPTS — R3
+
+LINEAGE TYPING (main.py 1996–2028)
+1996:     def _code_role_for_line(line: str) -> str:
+1997:         clean = line.strip().rstrip(";")
+1998:         if clean in {"/", "GO"}:
+1999:             return "Execution delimiter: separates or submits the database package statement."
+2000:         if re.search(r"(?i)\b(compute|computes|calculation|formula)\b", clean):
+2001:             return "Calculation hint: documents the business expression expected inside the KPI implementation."
+2002:         if clean.startswith(("--", "#", "//", "'")):
+2003:             return "KPI marker: tells LEAP this nearby code defines or documents a KPI."
+2004:         if re.search(r"(?i)\bCREATE\s+OR\s+REPLACE\s+PACKAGE\b", clean):
+2005:             return "Package boundary: declares the interface where this KPI routine is published."
+2006:         function_match = re.search(r"(?i)\bFUNCTION\s+([a-zA-Z_][a-zA-Z0-9_]*)", clean)
+2007:         if function_match:
+2008:             if re.search(r"(?i)\bRETURN\s+NUMBER\b", clean):
+2009:                 return (
+2010:                     f"KPI function: {function_match.group(1)} exposes this metric; "
+2011:                     "RETURN NUMBER declares the KPI result as numeric output."
+2012:                 )
+2013:             return f"KPI function: {function_match.group(1)} is the callable routine that exposes this metric."
+2014:         if re.search(r"(?i)\bRETURN\s+NUMBER\b", clean):
+2015:             return "Return contract: the KPI output is numeric and can be used in calculations, dashboards, or thresholds."
+2016:         if re.search(r"(?i)\bEND\b", clean):
+2017:             return "Scope boundary: closes the KPI package, function, or code block."
+2018:         if re.search(r"(?i)\bSELECT\b", clean):
+2019:             return "Query entry point: starts the data-selection logic used to calculate the KPI."
+2020:         if re.search(r"(?i)\bAS\s+[a-zA-Z_][a-zA-Z0-9_]*\b", clean):
+2021:             alias = re.search(r"(?i)\bAS\s+([a-zA-Z_][a-zA-Z0-9_]*)\b", clean)
+2022:             alias_text = alias.group(1) if alias else "the KPI output"
+2023:             return f"Output alias: maps this expression to {alias_text} in the result set."
+2024:         if re.search(r"[+\-*/×÷]", clean):
+2025:             return "Calculation expression: combines source variables used by the formal formula."
+2026:         if re.search(r"(?i)\bFROM\b", clean):
+2027:             return "Source relation: identifies the table, view, or dataset read by the KPI."
+2028:         return "Source context: supports the KPI definition or execution boundary."
+
+SAFEGUARD GENERATION (main.py 2532–2555)
+2532:     def _walkthrough_safeguards_html() -> str:
+2533:         code_context = kpi_data.get("code_context") or ""
+2534:         safeguards: list[tuple[str, str]] = []
+2535:         if re.search(r"(?is)\bNULLIF\s*\(", code_context):
+2536:             safeguards.append(
+2537:                 (
+2538:                     "Zero-Division Guard",
+2539:                     "Implementation logic uses NULLIF so denominator values of zero do not create invalid ratio calculations.",
+2540:                 )
+2541:             )
+2542:         elif re.search(r"(?is)\bif\s*\(.+==\s*0\)|\bif\s+.+==\s*0", code_context):
+2543:             safeguards.append(
+2544:                 (
+2545:                     "Zero-Division Guard",
+2546:                     "Implementation logic checks for a zero denominator before returning the KPI value.",
+2547:                 )
+2548:             )
+2549:         else:
+2550:             safeguards.append(
+2551:                 (
+2552:                     "Implementation Traceability",
+2553:                     f"Executable evidence is locked to {kpi_data.get('source_file_display') or 'the captured implementation file'} at line {kpi_data.get('source_line_number', 1)}.",
+2554:                 )
+2555:             )
+
+CERTIFICATION LANGUAGE (main.py 2517–2530)
+2517:         source = kpi_data.get("source_file_display") or "the captured source file"
+2518:         language = kpi_data.get("source_language_display") or "SOURCE"
+2519:         formula_step = (
+2520:             "Second, because no certified formula statement is declared in implementation comments, "
+2521:             "LEAP presents the executable calculation evidence in the formal MathJax formula shown above."
+2522:             if formula_unresolved
+2523:             else f"Second, it presents the certified calculation expression ({formula or 'the captured implementation expression'}) in the formal MathJax formula shown above."
+2524:         )
+2525:         steps = [
+2526:             f"First, LEAP certifies the KPI definition against {source} and classifies the implementation as {language} evidence.",
+2527:             formula_step,
+2528:             "Finally, it preserves the executable context and code fingerprint so future changes to the KPI logic can be identified.",
+2529:         ]
+2530:         return "<ol>" + "".join(f"<li>{escape(step)}</li>" for step in steps) + "</ol>"
+
+TEMPLATE CERTIFICATION CONTROLS
+50:                 <a href="genindex.html" data-nav-key="index" class="leap-nav-item">
+51:                    <span class="leap-nav-icon"><svg class="leap-nav-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span> Index
+52:                 </a>
+53:              </div>
+54:              <div class="leap-nav-status-card">
+55:                <span>Workspace Mode</span>
+56:                <strong>Offline Governance</strong>
+57:                <small>Certified metric dossier</small>
+58:             </div>
+59:          </nav>
+60:       </aside>
+61: 
+62:       <div class="leap-workspace-main">
+368:                    <div class="card-row"><span class="label">Type:</span><span class="value">{{ kpi.source_language_display }} operational definition</span></div>
+369:                    <div class="card-row"><span class="label">Runtime:</span><span class="value code-font">Offline</span></div>
+370:                    <div class="card-row"><span class="label">Frequency:</span><span class="value code-font">On Demand</span></div>
+371:                 </details>
+372: 
+373:                 <details class="sidebar-card leap-card-tertiary action-card">
+374:                    <summary><h3>Operational Actions</h3></summary>
+375:                    <button class="sidebar-btn btn-primary" type="button" onclick="window.print()">Print Certified Dossier</button>
+376:                    {% if kpi.has_source_link %}
+377:                    <a class="sidebar-btn btn-secondary" href="{{ kpi.vscode_url }}">Open in VS Code</a>
+378:                    <a class="sidebar-btn btn-secondary" href="{{ kpi.pycharm_url }}">Open in PyCharm</a>

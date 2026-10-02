@@ -1,0 +1,10 @@
+{
+  "generator_main_sha256": "e4a26797c6c7dccb49603745720e4dce7b85bd27e2c2c86f8292183b4b2188c5",
+  "template_sha256": "668d1cb74057a9c52fe60525b8cfe531abbdc15529ca707830e9969e6981f5ae",
+  "source": "frozen JSS Paper 1 artifact copy used for replication builds",
+  "findings": {
+    "lineage_typing": "comment detection occurs after calculation/formula keyword test, excludes ABAP * comment prefix, and generic AS regex can capture CAST type",
+    "safeguard_binding": "safeguard generator recognizes NULLIF and ==0 forms and emits generic denominator wording; it does not bind the guard variable to the displayed formula denominator or preserve <=0 semantics",
+    "authority_language": "certification wording is generated unconditionally and Print Certified Dossier appears in the page template independent of Needs Review status"
+  }
+}

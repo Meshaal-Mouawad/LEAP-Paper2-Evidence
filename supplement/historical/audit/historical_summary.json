@@ -1,0 +1,22 @@
+{
+  "dossiers": 18,
+  "needs_review": 12,
+  "validated": 6,
+  "lineage": {
+    "affected_dossiers": 4,
+    "instances": 12
+  },
+  "guards": {
+    "instances": 9,
+    "failures": 4,
+    "preserved": 5
+  },
+  "authority": {
+    "eligible": 12,
+    "affected": 12
+  },
+  "conflict_routing": {
+    "eligible": 6,
+    "preserved": 6
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "cases": 14,
+  "matched": 14,
+  "mismatched": 0,
+  "false_alarms_on_benign_controls": 0,
+  "misses_on_defect_controls": 0,
+  "all_expected_outcomes_matched": true,
+  "interpretation": "Artifact-derived controls validate the released checker on specified archived baselines/substitutions plus one reparsed document mutation; they do not estimate population-level sensitivity or specificity.",
+  "details": [
+    {
+      "case": "actual_guard_baseline",
+      "family": "condition_disclosure",
+      "expected": "PASS",
+      "observed": "PASS",
+      "matched": true,
+      "detail": "guard, displayed denominator, and handling semantics align"
+    },
+    {
+      "case": "actual_guard_missing_denominator",
+      "family": "condition_disclosure",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "displayed formula denominator is missing"
+    },
+    {
+      "case": "actual_guard_wrong_denominator",
+      "family": "condition_disclosure",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "guarded variable does not match displayed formula denominator"
+    },
+    {
+      "case": "actual_guard_contradictory_safeguard",
+      "family": "condition_disclosure",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "reader-facing safeguard text contradicts the existence of handling"
+    },
+    {
+      "case": "actual_guard_heading_only_document_mutation",
+      "family": "condition_disclosure",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "reparsed HTML safeguard='Zero-Division Guard:'; reader-facing safeguard contains only a heading and no handling semantics"
+    },
+    {
+      "case": "actual_yield_lineage_defect",
+      "family": "source_role",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "Output alias: maps this expression to a in the result set."
+    },
+    {
+      "case": "actual_yield_lineage_benign_label",
+      "family": "source_role",
+      "expected": "PASS",
+      "observed": "PASS",
+      "matched": true,
+      "detail": "Source context: supports the KPI definition or execution boundary."
+    },
+    {
+      "case": "actual_conflict_routing_baseline",
+      "family": "conflict_routing",
+      "expected": "PASS",
+      "observed": "PASS",
+      "matched": true,
+      "detail": "actual page includes Needs Review and Review Queue"
+    },
+    {
+      "case": "actual_conflict_routing_suppressed",
+      "family": "conflict_routing",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "in-memory negative control removes Review Queue"
+    },
+    {
+      "case": "actual_authority_certification_defect",
+      "family": "review_authority",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "certification phrases=['Certified metric dossier', 'certified formula', 'certifies the KPI definition', 'certified calculation expression', 'Print Certified Dossier', 'certified implementation path']"
+    },
+    {
+      "case": "actual_authority_benign_control",
+      "family": "review_authority",
+      "expected": "PASS",
+      "observed": "PASS",
+      "matched": true,
+      "detail": "in-memory benign control removes certification wording while retaining Needs Review"
+    },
+    {
+      "case": "actual_external_role_baseline",
+      "family": "external_source_role",
+      "expected": "PASS",
+      "observed": "PASS",
+      "matched": true,
+      "detail": "published role and name match source"
+    },
+    {
+      "case": "actual_external_role_wrong_location",
+      "family": "external_source_role",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "published location 'header' != source location 'query'"
+    },
+    {
+      "case": "actual_external_role_wrong_name",
+      "family": "external_source_role",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "matched": true,
+      "detail": "published name 'wrong-parameter' != source name 'item-query'"
+    }
+  ]
+}

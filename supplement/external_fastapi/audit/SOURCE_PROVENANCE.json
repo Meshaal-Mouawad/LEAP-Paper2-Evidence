@@ -1,0 +1,36 @@
+{
+  "upstream": "fastapi/fastapi",
+  "commit": "33d411dbc3236275dd64d200bfe18d5d60a49b2e",
+  "runtime_fastapi": "0.128.2",
+  "runtime_pydantic": "2.13.4",
+  "files": {
+    "query_param_constraints.py": {
+      "upstream_path": "docs_src/query_params_str_validations/tutorial010_an_py310.py",
+      "expected_git_blob_sha1": "775095bda86ae8d0296d961eadc1e164d7016756",
+      "local_git_blob_sha1": "775095bda86ae8d0296d961eadc1e164d7016756",
+      "sha256": "c365909dda8da8a296b5534c9e58f73240a5d30dca46a65bee3b43e5b89748a2",
+      "blob_match": true
+    },
+    "path_numeric_constraints.py": {
+      "upstream_path": "docs_src/path_params_numeric_validations/tutorial006_an_py310.py",
+      "expected_git_blob_sha1": "426ec3776446bb49092be1e511833cd6162b017a",
+      "local_git_blob_sha1": "426ec3776446bb49092be1e511833cd6162b017a",
+      "sha256": "f6941282c5fd391d457d9e89679a6224e9882f6c54ab13da95701ba8142ebfb0",
+      "blob_match": true
+    },
+    "body_field_constraints.py": {
+      "upstream_path": "docs_src/body_fields/tutorial001_an_py310.py",
+      "expected_git_blob_sha1": "c9d99e1c2b373bbaec9089715814655d98cc9a97",
+      "local_git_blob_sha1": "c9d99e1c2b373bbaec9089715814655d98cc9a97",
+      "sha256": "56bc9126f371dc8f6781410733452d13392551da6908eb50dffb38a80e6154aa",
+      "blob_match": true
+    },
+    "deprecated_operation.py": {
+      "upstream_path": "docs_src/path_operation_configuration/tutorial006_py310.py",
+      "expected_git_blob_sha1": "7c1aa9b206054df7a543d3b0b74621120ec8e3e1",
+      "local_git_blob_sha1": "7c1aa9b206054df7a543d3b0b74621120ec8e3e1",
+      "sha256": "5056b0c416045694765968b7a4f7c3dfbaffe4a1cee1947826b03add7b1ea8a1",
+      "blob_match": true
+    }
+  }
+}

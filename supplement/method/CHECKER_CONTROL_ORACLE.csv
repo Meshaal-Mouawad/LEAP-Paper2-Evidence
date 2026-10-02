@@ -1,0 +1,19 @@
+case,family,expected,oracle_rationale
+role_correct,source_role,PASS,source and published query role/name are identical
+role_wrong_location,source_role,FAIL,published role is deliberately changed from query to header
+role_wrong_name,source_role,FAIL,published parameter name is deliberately replaced
+lineage_comment_benign,source_role,PASS,comment is labeled as source context rather than executable output
+lineage_comment_as_alias,source_role,FAIL,docstring is deliberately labeled as output alias
+guard_zero_correct,condition_disclosure,PASS,same guarded denominator and affirmative zero handling
+guard_missing_denominator,condition_disclosure,FAIL,published denominator is deliberately absent
+guard_wrong_denominator,condition_disclosure,FAIL,published denominator deliberately differs from guarded variable
+guard_contradictory_text,condition_disclosure,FAIL,safeguard explicitly says no zero handling exists
+guard_disabled_text,condition_disclosure,FAIL,safeguard explicitly states that the zero guard is disabled
+guard_nonpositive_correct,condition_disclosure,PASS,non-positive guard and handling are both stated
+guard_nonpositive_reduced_to_zero,condition_disclosure,FAIL,non-positive source semantics deliberately reduced to zero-only wording
+conflict_routing_correct,conflict_routing,PASS,explicit conflict remains Needs Review and in Review Queue
+conflict_routing_suppressed,conflict_routing,FAIL,Review Queue is deliberately removed from explicit conflict
+conflict_not_applicable,conflict_routing,N/A,control has no explicit representation conflict
+authority_unresolved_clean,review_authority,PASS,unresolved status has no certification wording
+authority_unresolved_certified,review_authority,FAIL,certification wording is deliberately placed beside unresolved status
+authority_validated_control,review_authority,N/A,resolved status is outside the unresolved-authority criterion

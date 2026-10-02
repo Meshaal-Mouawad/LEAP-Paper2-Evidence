@@ -1,0 +1,16 @@
+External transferability pilot
+
+System: FastAPI OpenAPI generation (independently developed external system)
+FastAPI runtime: 0.128.2
+Pydantic runtime: 2.13.4
+Official FastAPI repository commit: 33d411dbc3236275dd64d200bfe18d5d60a49b2e
+
+The four source files in ../source/ are byte-for-byte transcriptions of the named official FastAPI tutorial source files at that commit, fetched through the GitHub connector.
+
+Mappings:
+- source-role accuracy -> OpenAPI parameter/request-body location.
+- executable-condition disclosure -> publication of declarative validation constraints (FastAPI metadata), not arbitrary internal control-flow branches.
+- representation-disagreement preservation -> applicability gate retained; no unresolved explicit conflict occurs in the selected official examples.
+- review-authority consistency -> adapted only for examples carrying explicit lifecycle status: source deprecated=True must propagate to OpenAPI deprecated=true. This is lifecycle status, not human review authority.
+
+This pilot tests transferability of the audit procedure and applicability logic, not prevalence of documentation defects in FastAPI.

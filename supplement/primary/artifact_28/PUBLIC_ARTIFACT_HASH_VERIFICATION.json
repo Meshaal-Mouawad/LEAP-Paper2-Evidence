@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "public_artifact_repo": "Meshaal-Mouawad/LEAP-JSS-Paper1-Artifact",
+  "public_artifact_commit": "5e697b5b87d12ad780b73db9a2e93e5850bad982",
+  "matched": 28,
+  "total": 28,
+  "files": [
+    {
+      "file": "audit_trail_completeness.html",
+      "expected": "8b05271e4b95aa9e5e0e70ab25e8dfa16a2682ddecd71fecf3197a64d3acce18",
+      "actual": "8b05271e4b95aa9e5e0e70ab25e8dfa16a2682ddecd71fecf3197a64d3acce18",
+      "passed": true
+    },
+    {
+      "file": "catalyst_replacement_frequency.html",
+      "expected": "ca210f875cff358b380538a50684ed52e73e0145dd2c9344a3ee1af00c63a41d",
+      "actual": "ca210f875cff358b380538a50684ed52e73e0145dd2c9344a3ee1af00c63a41d",
+      "passed": true
+    },
+    {
+      "file": "compressor_vibration_index.html",
+      "expected": "39d5421cf0b25eb169d69cfa6d79a4f48038630d464a8cab54fdfed02f3b453d",
+      "actual": "39d5421cf0b25eb169d69cfa6d79a4f48038630d464a8cab54fdfed02f3b453d",
+      "passed": true
+    },
+    {
+      "file": "cooling_water_deltat_c.html",
+      "expected": "45ab9e060c1f98b3f9b244264e94e4a8bd7504aee6cba8ff0b14e02c31890b9d",
+      "actual": "45ab9e060c1f98b3f9b244264e94e4a8bd7504aee6cba8ff0b14e02c31890b9d",
+      "passed": true
+    },
+    {
+      "file": "customer_activity_index.html",
+      "expected": "960aabdfbc41d3e1a69c073537484e504dda9da05a694b933b29267d306ae0a5",
+      "actual": "960aabdfbc41d3e1a69c073537484e504dda9da05a694b933b29267d306ae0a5",
+      "passed": true
+    },
+    {
+      "file": "daily_feedstock_throughput_tonsday.html",
+      "expected": "d145abe1e3c3cd42823c1ae2ba5dd4aabc1a4edb6e154b52321f507041b95f21",
+      "actual": "d145abe1e3c3cd42823c1ae2ba5dd4aabc1a4edb6e154b52321f507041b95f21",
+      "passed": true
+    },
+    {
+      "file": "ethylene_production_yield.html",
+      "expected": "0a217434501cbc54b35da7b46d8306ff3f472b5d7258da9471c5c36b14ae1f55",
+      "actual": "0a217434501cbc54b35da7b46d8306ff3f472b5d7258da9471c5c36b14ae1f55",
+      "passed": true
+    },
+    {
+      "file": "eu_data_export_volume.html",
+      "expected": "c1e5f9075567a0215489b100bdef6c24307a9dc2d3294fa3cc73f52f834d7be6",
+      "actual": "c1e5f9075567a0215489b100bdef6c24307a9dc2d3294fa3cc73f52f834d7be6",
+      "passed": true
+    },
+    {
+      "file": "flare_emission_recovery_rate.html",
+      "expected": "57980646b9d32e361ae576683a96a81bb0871546621c77ef1dbd9af9bfa6cafa",
+      "actual": "57980646b9d32e361ae576683a96a81bb0871546621c77ef1dbd9af9bfa6cafa",
+      "passed": true
+    },
+    {
+      "file": "governed_eu_data_export.html",
+      "expected": "eb39e7c90b797c9b840ed96263ade1bb94e311ae66c3e9200445b96b1fd80f3f",
+      "actual": "eb39e7c90b797c9b840ed96263ade1bb94e311ae66c3e9200445b96b1fd80f3f",
+      "passed": true
+    },
+    {
+      "file": "governed_inventory_modification.html",
+      "expected": "27ac39cd8f54e5047dbceb3394045e399d93f523469b2c3bcde04d7b01e6735b",
+      "actual": "27ac39cd8f54e5047dbceb3394045e399d93f523469b2c3bcde04d7b01e6735b",
+      "passed": true
+    },
+    {
+      "file": "gross_margin_percentage.html",
+      "expected": "83b4dcc240818a783156c38bb3cc7572ad2a2796a2a5c2fe8b69115b9d0cd479",
+      "actual": "83b4dcc240818a783156c38bb3cc7572ad2a2796a2a5c2fe8b69115b9d0cd479",
+      "passed": true
+    },
+    {
+      "file": "hse_safety_incident_rate.html",
+      "expected": "d126416b6a3137226560259c1b645f814ce373fdc544e339a1f1809604645a21",
+      "actual": "d126416b6a3137226560259c1b645f814ce373fdc544e339a1f1809604645a21",
+      "passed": true
+    },
+    {
+      "file": "inventory_modification_gap.html",
+      "expected": "18879b0c6374d1bfbb148c10fe5a0ba713ace5e06b305cf335b976f16c4d1ee7",
+      "actual": "18879b0c6374d1bfbb148c10fe5a0ba713ace5e06b305cf335b976f16c4d1ee7",
+      "passed": true
+    },
+    {
+      "file": "kpi_flare_recovery_pct.html",
+      "expected": "95ab11bf2298b4ac34e40a87a45e101b4f5e69cfb3f9dba3e06c1b20aae1474c",
+      "actual": "95ab11bf2298b4ac34e40a87a45e101b4f5e69cfb3f9dba3e06c1b20aae1474c",
+      "passed": true
+    },
+    {
+      "file": "maintenance_to_operating_cost_ratio.html",
+      "expected": "bff0b423684c938fa05b3830458de806c86d1e21e0a4d1cbf6b09fcfe88b05ea",
+      "actual": "bff0b423684c938fa05b3830458de806c86d1e21e0a4d1cbf6b09fcfe88b05ea",
+      "passed": true
+    },
+    {
+      "file": "masked_customer_activity_index.html",
+      "expected": "dd107df81d997ce46d225a0501f213fcbd162cd61ec919d1994864aa8ccf032e",
+      "actual": "dd107df81d997ce46d225a0501f213fcbd162cd61ec919d1994864aa8ccf032e",
+      "passed": true
+    },
+    {
+      "file": "mean_time_between_failures_mtbf.html",
+      "expected": "089e6462e7e88099f27ba96aeadd20770145a95f4d846f4918b4cff922f108dd",
+      "actual": "089e6462e7e88099f27ba96aeadd20770145a95f4d846f4918b4cff922f108dd",
+      "passed": true
+    },
+    {
+      "file": "oee.html",
+      "expected": "8cea3a5a503613c47e0a6c0da09297af6192444c8bcf333346d29a383b495d55",
+      "actual": "8cea3a5a503613c47e0a6c0da09297af6192444c8bcf333346d29a383b495d55",
+      "passed": true
+    },
+    {
+      "file": "onspec_rate.html",
+      "expected": "abd1f7cfc97aafc00eb4ee1c26edc62c43a6cc168a9369f4d8f400e924023041",
+      "actual": "abd1f7cfc97aafc00eb4ee1c26edc62c43a6cc168a9369f4d8f400e924023041",
+      "passed": true
+    },
+    {
+      "file": "polymer_melt_flow_index_mfi_variance.html",
+      "expected": "8acd1aa1f7c1950aefd36eda33b5e733c8c05419c087b47377f7cd382720ae72",
+      "actual": "8acd1aa1f7c1950aefd36eda33b5e733c8c05419c087b47377f7cd382720ae72",
+      "passed": true
+    },
+    {
+      "file": "procurement_contract_compliance_rate.html",
+      "expected": "0f859ca4cb059ea8a308fda970873252692d58a401b2820d8ce28f1912775174",
+      "actual": "0f859ca4cb059ea8a308fda970873252692d58a401b2820d8ce28f1912775174",
+      "passed": true
+    },
+    {
+      "file": "propylene_to_ethylene_pe_ratio.html",
+      "expected": "9d80613f4bdf8d3dbb97384b0050997c22628442e9338a0264c94de4e87dc07c",
+      "actual": "9d80613f4bdf8d3dbb97384b0050997c22628442e9338a0264c94de4e87dc07c",
+      "passed": true
+    },
+    {
+      "file": "runtime_execution_latency.html",
+      "expected": "a7a3ecf226684d3b323ca8f37904a59745074bcc55444940e89eafbbb9df1869",
+      "actual": "a7a3ecf226684d3b323ca8f37904a59745074bcc55444940e89eafbbb9df1869",
+      "passed": true
+    },
+    {
+      "file": "safe_execution_latency.html",
+      "expected": "42ec45c20621919e0fe0e829e1eddc2f9e0faedd06cb9951ad8ac9e37b4257f5",
+      "actual": "42ec45c20621919e0fe0e829e1eddc2f9e0faedd06cb9951ad8ac9e37b4257f5",
+      "passed": true
+    },
+    {
+      "file": "signed_lineage_audit_trail.html",
+      "expected": "9fd5e4462364502f161d72a00ad396568c0f5c8eaf26025ba76901f7f9eca463",
+      "actual": "9fd5e4462364502f161d72a00ad396568c0f5c8eaf26025ba76901f7f9eca463",
+      "passed": true
+    },
+    {
+      "file": "specific_catalyst_cost_ton.html",
+      "expected": "751da895b4afe1ba9bc42915505921f55c47b58fcc065b3c129832d35a404c7e",
+      "actual": "751da895b4afe1ba9bc42915505921f55c47b58fcc065b3c129832d35a404c7e",
+      "passed": true
+    },
+    {
+      "file": "yield_percentage.html",
+      "expected": "8227630320c462d8f9f48f05b4cf75422e194acfa27c32070d73f82b2bba8382",
+      "actual": "8227630320c462d8f9f48f05b4cf75422e194acfa27c32070d73f82b2bba8382",
+      "passed": true
+    }
+  ]
+}

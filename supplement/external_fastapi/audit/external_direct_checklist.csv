@@ -1,0 +1,17 @@
+example,obligation,applicable,outcome,evidence,adaptation
+query_param_constraints,source-role accuracy,True,PASS,source expects query/item-query; OpenAPI publishes query/item-query; published role and name match source,none
+query_param_constraints,condition disclosure,True,PASS,source min/max/pattern=3/50/^fixedquery$; OpenAPI=3/50/^fixedquery$; invalid requests=422/422.,Declarative validation constraints are used as the external condition representation.
+query_param_constraints,representation-disagreement preservation,False,N/A,No unresolved explicit representation conflict exists in this official example.,none
+query_param_constraints,review-authority consistency,False,N/A,No human review state exists in this official example.,No lifecycle-status substitution is counted as a direct pass.
+path_numeric_constraints,source-role accuracy,True,PASS,"source expects item_id/path, q/query, size/query; OpenAPI publishes item_id/path, q/query, size/query.",none
+path_numeric_constraints,condition disclosure,True,PASS,"source item_id=0.0..1000.0, size>0.0 and <10.5; OpenAPI item_id=0..1000, size=0..10.5; invalid requests=422/422.",Declarative validation constraints are used as the external condition representation.
+path_numeric_constraints,representation-disagreement preservation,False,N/A,No unresolved explicit representation conflict exists in this official example.,none
+path_numeric_constraints,review-authority consistency,False,N/A,No human review state exists in this official example.,none
+body_field_constraints,source-role accuracy,True,PASS,source expects item_id/path and Item/requestBody; OpenAPI item_id=path; requestBody=True.,none
+body_field_constraints,condition disclosure,True,PASS,"source description maxLength=300, price>0.0; OpenAPI maxLength=300, exclusiveMinimum=0.0; invalid requests=422/422.",Declarative field constraints are used as the external condition representation.
+body_field_constraints,representation-disagreement preservation,False,N/A,No unresolved explicit representation conflict exists in this official example.,none
+body_field_constraints,review-authority consistency,False,N/A,No human review state exists in this official example.,none
+deprecated_operation,source-role accuracy,True,PASS,"source GET routes=['/elements/', '/items/', '/users/']; OpenAPI GET routes=['/elements/', '/items/', '/users/'].",none
+deprecated_operation,condition disclosure,False,N/A,No explicit validation constraint is declared in these operations.,none
+deprecated_operation,representation-disagreement preservation,False,N/A,No unresolved explicit representation conflict exists in this official example.,none
+deprecated_operation,review-authority consistency,False,N/A,No human review state exists in this official example.,none

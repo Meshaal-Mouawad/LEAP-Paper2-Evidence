@@ -1,0 +1,74 @@
+{
+  "label": "scenarios",
+  "dossiers": 29,
+  "status": {
+    "needs_review": 11,
+    "validated": 18
+  },
+  "lineage_typing": {
+    "affected_dossiers": 1,
+    "visible_instances": 8
+  },
+  "guard_binding": {
+    "guard_instances": 1,
+    "affected_dossiers": 0,
+    "failure_instances": 0,
+    "preserved_instances": 1
+  },
+  "authority_language": {
+    "eligible_needs_review": 11,
+    "affected_dossiers": 11
+  },
+  "conflict_routing": {
+    "eligible_conflict_signal": 2,
+    "preserved": 2
+  },
+  "role_detail": [
+    {
+      "page": "clean_abap_kpi.rst",
+      "source_file": "03_clean_abap_kpi.abap",
+      "errors": [
+        {
+          "code": "* Expected LEAP Result:",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* - Governance Status: Validated",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* - Review Queue: No",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* - Expected Signal(s): None",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* - Expected Compliance Rule(s): None",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* KPI: Clean ABAP KPI",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* Business Objective: Track maintenance execution schedule variance.",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* Owner: Enterprise Data Owner",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        }
+      ]
+    }
+  ]
+}

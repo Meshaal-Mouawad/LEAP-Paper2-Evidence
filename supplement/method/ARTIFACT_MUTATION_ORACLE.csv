@@ -1,0 +1,15 @@
+case,family,expected,oracle_rationale
+actual_guard_baseline,condition_disclosure,PASS,unmodified archived page has matching denominator and guard semantics
+actual_guard_missing_denominator,condition_disclosure,FAIL,in-memory mutation removes displayed denominator
+actual_guard_wrong_denominator,condition_disclosure,FAIL,in-memory mutation substitutes Revenue for guarded hours_online denominator
+actual_guard_contradictory_safeguard,condition_disclosure,FAIL,in-memory mutation says no zero handling is provided
+actual_guard_heading_only_document_mutation,condition_disclosure,FAIL,document-level HTML mutation replaces safeguard prose with a second Zero-Division Guard heading and is reparsed through the production adapter
+actual_yield_lineage_defect,source_role,FAIL,archived docstring is labeled as an output alias
+actual_yield_lineage_benign_label,source_role,PASS,same archived docstring is relabeled as source context for benign control
+actual_conflict_routing_baseline,conflict_routing,PASS,archived explicit conflict remains Needs Review and Review Queue
+actual_conflict_routing_suppressed,conflict_routing,FAIL,in-memory mutation suppresses Review Queue
+actual_authority_certification_defect,review_authority,FAIL,archived unresolved page contains certification-oriented wording
+actual_authority_benign_control,review_authority,PASS,in-memory benign control removes certification wording but retains Needs Review
+actual_external_role_baseline,external_source_role,PASS,generated OpenAPI role/name match source-declared query role/alias
+actual_external_role_wrong_location,external_source_role,FAIL,in-memory mutation changes generated role from query to header
+actual_external_role_wrong_name,external_source_role,FAIL,in-memory mutation replaces generated parameter name

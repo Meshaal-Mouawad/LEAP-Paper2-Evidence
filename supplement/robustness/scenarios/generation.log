@@ -1,0 +1,87 @@
+Cleared previous workspace artifacts.
+Reset prior workspace pages.
+Reading enterprise metric sources in: /mnt/data/paper2_r3_work/alt_scenarios/data/validation/generated_scenario_kpis
+Metric inventory: 29 governed business metrics (all files: 38, eligible files: 38, implementation files: 38)
+Governance layer: assigned RACI ownership using local rules and overrides.
+Business definition phase: preparing 29 governed metrics...
+Business definition ready for 'Technical Review Only' (0.00s).
+Business definition ready for 'Percentage Ratio' (0.00s).
+Business definition ready for 'Clean Python KPI' (0.00s).
+Business definition ready for 'Nullif Denominator Formula' (0.00s).
+Business definition ready for 'Asset Utilization' (0.00s).
+Business definition ready for 'NPS Pattern Formula' (0.00s).
+Business definition ready for 'Clean ABAP KPI' (0.00s).
+Business definition ready for 'GDPR Data Export Violation' (0.00s).
+Business definition ready for 'NCA Restricted Execution' (0.00s).
+Business definition ready for 'GDPR Alarm Only' (0.00s).
+Business definition ready for 'Clean SQL KPI' (0.00s).
+Business definition ready for 'Subtraction Formula' (0.00s).
+Business definition ready for 'GDPR Clean Control' (0.00s).
+Business definition ready for 'Yield Rate' (0.00s).
+Business definition ready for 'Greek Symbols Formula' (0.00s).
+Business definition ready for 'PDPL Clean Control' (0.00s).
+Business definition ready for 'Explicit LaTeX' (0.00s).
+Business definition ready for 'Units Formula' (0.00s).
+Business definition ready for 'NCA Restricted Clean Control' (0.00s).
+Business definition ready for 'SOC2 Clean Control' (0.00s).
+Business definition ready for 'Validated Clean' (0.00s).
+Business definition ready for 'SOC2 Unsigned Lineage' (0.00s).
+Business definition ready for 'Multiplication Formula' (0.00s).
+Business definition ready for 'NCA Audit Gap' (0.00s).
+Business definition ready for 'PDPL PII Violation' (0.00s).
+Business definition ready for 'Owner Confirmation Required' (0.00s).
+Business definition ready for 'Audit Clean Control' (0.00s).
+Business definition ready for 'Underscores Formula' (0.00s).
+Business definition ready for 'Simple Ratio' (0.00s).
+Prepared dossier for 'Technical Review Only'.
+Prepared dossier for 'Percentage Ratio'.
+Prepared dossier for 'Clean Python KPI'.
+Prepared dossier for 'Nullif Denominator Formula'.
+Prepared dossier for 'Asset Utilization'.
+Prepared dossier for 'NPS Pattern Formula'.
+Prepared dossier for 'Clean ABAP KPI'.
+Prepared dossier for 'GDPR Data Export Violation'.
+Prepared dossier for 'NCA Restricted Execution'.
+Prepared dossier for 'GDPR Alarm Only'.
+Prepared dossier for 'Clean SQL KPI'.
+Prepared dossier for 'Subtraction Formula'.
+Prepared dossier for 'GDPR Clean Control'.
+Prepared dossier for 'Yield Rate'.
+Prepared dossier for 'Greek Symbols Formula'.
+Prepared dossier for 'PDPL Clean Control'.
+Prepared dossier for 'Explicit LaTeX'.
+Prepared dossier for 'Units Formula'.
+Prepared dossier for 'NCA Restricted Clean Control'.
+Prepared dossier for 'SOC2 Clean Control'.
+Prepared dossier for 'Validated Clean'.
+Prepared dossier for 'SOC2 Unsigned Lineage'.
+Prepared dossier for 'Multiplication Formula'.
+Prepared dossier for 'NCA Audit Gap'.
+Prepared dossier for 'PDPL PII Violation'.
+Prepared dossier for 'Owner Confirmation Required'.
+Prepared dossier for 'Audit Clean Control'.
+Prepared dossier for 'Underscores Formula'.
+Prepared dossier for 'Simple Ratio'.
+Business definition phase wall time: 0.01s for 29 KPIs.
+Deterministic detail preparation latency (sum across KPIs): 0.01s; avg per KPI latency: 0.00s; avg wall time per KPI (wall/num): 0.00s
+======================================================================
+KPI PORTFOLIO SUMMARY
+Workspace items inventoried: 38
+Workspace files inventoried: 38
+Workspace directories inventoried: 0
+Eligible files after exclusions: 38
+Implementation files evaluated: 38
+Binary/image files ignored: 0
+Unsupported files ignored: 0
+Non-metric routines ignored: 0
+Candidate review queue: 0
+Configured ignored files: 0
+Configured ignored directories: 0
+Implementation lines evaluated: 599
+Enterprise KPIs: 29
+Governed metrics: 29
+Average confidence: 91.9%
+======================================================================
+Workspace navigation updated with discovery workspace, RACI directory, and 29 KPI dossiers.
+Workspace HTML build not run: [Errno 2] No such file or directory: 'sphinx-build'
+Total wall time: 0.30s

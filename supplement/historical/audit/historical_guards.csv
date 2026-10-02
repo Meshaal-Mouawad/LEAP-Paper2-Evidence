@@ -1,0 +1,10 @@
+dossier,text,variable,kind,displayed_denominator,verdict,reason
+compressor_vibration_index.html,if baseline_threshold_mm_s <= 0:,baseline_threshold_mm_s,nonpositive,Baseline Threshold,failure,reader-facing safeguard text is missing
+daily_feedstock_throughput_tonsday.html,if hours_online == 0:,hours_online,zero,Hours Online,preserved,"guard, displayed denominator, and handling semantics align"
+ethylene_production_yield.html,3 |     if feedstock_input_tons <= 0:,feedstock_input_tons,nonpositive,Feedstock Input (Tons),failure,reader-facing safeguard text is missing
+gross_margin_percentage.html,4 |     if cost == 0:,cost,zero,Revenue,failure,guarded variable does not match displayed formula denominator
+kpi_flare_recovery_pct.html,"NULLIF(total_gas_m3,0)",total_gas_m3,zero,Total Gas M3,preserved,"guard, displayed denominator, and handling semantics align"
+onspec_rate.html,"NULLIF(total_batches, 0)",total_batches,zero,Total Batches,preserved,"guard, displayed denominator, and handling semantics align"
+propylene_to_ethylene_pe_ratio.html,if (ethyleneProducedTons == 0) return 0.0;,ethyleneProducedTons,zero,Ethylene Produced Tons,preserved,"guard, displayed denominator, and handling semantics align"
+specific_catalyst_cost_ton.html,"NULLIF(product_tons, 0)",product_tons,zero,Product Tons,preserved,"guard, displayed denominator, and handling semantics align"
+yield_percentage.html,IF total_input = 0 THEN RETURN 0; END IF;,total_input,zero,Total Input,failure,reader-facing safeguard text is missing

@@ -1,0 +1,45 @@
+Cleared previous workspace artifacts.
+Reset prior workspace pages.
+Reading enterprise metric sources in: /mnt/data/paper2_r3_work/alt_challenge/data/validation/sample_project_challenge_kpis
+Metric inventory: 8 governed business metrics (all files: 8, eligible files: 8, implementation files: 8)
+Governance layer: assigned RACI ownership using local rules and overrides.
+Business definition phase: preparing 8 governed metrics...
+Business definition ready for 'Permit To Work Closure Compliance' (0.00s).
+Business definition ready for 'Weighted Energy Intensity Index' (0.00s).
+Business definition ready for 'Adjusted Feedstock Yield' (0.00s).
+Business definition ready for 'CO2 Emissions Intensity' (0.00s).
+Business definition ready for 'Rolling 30 Day On-Spec Rate' (0.00s).
+Business definition ready for 'Critical Spare Readiness' (0.00s).
+Business definition ready for 'Emergency Shutdown Demand Rate' (0.00s).
+Business definition ready for 'Net Plant Availability' (0.00s).
+Prepared dossier for 'Permit To Work Closure Compliance'.
+Prepared dossier for 'Weighted Energy Intensity Index'.
+Prepared dossier for 'Adjusted Feedstock Yield'.
+Prepared dossier for 'CO2 Emissions Intensity'.
+Prepared dossier for 'Rolling 30 Day On-Spec Rate'.
+Prepared dossier for 'Critical Spare Readiness'.
+Prepared dossier for 'Emergency Shutdown Demand Rate'.
+Prepared dossier for 'Net Plant Availability'.
+Business definition phase wall time: 0.01s for 8 KPIs.
+Deterministic detail preparation latency (sum across KPIs): 0.00s; avg per KPI latency: 0.00s; avg wall time per KPI (wall/num): 0.00s
+======================================================================
+KPI PORTFOLIO SUMMARY
+Workspace items inventoried: 8
+Workspace files inventoried: 8
+Workspace directories inventoried: 0
+Eligible files after exclusions: 8
+Implementation files evaluated: 8
+Binary/image files ignored: 0
+Unsupported files ignored: 0
+Non-metric routines ignored: 0
+Candidate review queue: 0
+Configured ignored files: 0
+Configured ignored directories: 0
+Implementation lines evaluated: 87
+Enterprise KPIs: 8
+Governed metrics: 8
+Average confidence: 91.9%
+======================================================================
+Workspace navigation updated with discovery workspace, RACI directory, and 8 KPI dossiers.
+Workspace HTML build not run: [Errno 2] No such file or directory: 'sphinx-build'
+Total wall time: 0.19s

@@ -1,0 +1,14 @@
+[
+  {
+    "control": "wrong_location",
+    "expected": "FAIL",
+    "observed": "FAIL",
+    "reason": "published location 'header' != source location 'query'"
+  },
+  {
+    "control": "wrong_name",
+    "expected": "FAIL",
+    "observed": "FAIL",
+    "reason": "published name 'wrong-parameter' != source name 'item-query'"
+  }
+]

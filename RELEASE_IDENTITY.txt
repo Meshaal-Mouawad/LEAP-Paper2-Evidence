@@ -1,0 +1,24 @@
+JSS FINAL RESEARCH-ARTIFACT RELEASE
+Prepared: 2 October 2026
+
+Manuscript title:
+From Source Linkage to Explanation Fidelity: An Executable Audit of Enterprise KPI Knowledge Publication
+
+Author:
+Meshaal Obaid Mouawad
+
+Final JSS submission package SHA-256:
+63adb9478579e86323f540ce233466ef6f41e29495dc0f5269d0a91eee7167e2
+
+Final manuscript PDF SHA-256:
+872706d5430918fedc807122f68ce5c98a22527f17236366a77af9b55c4fd33d
+
+Final supplementary evidence ZIP SHA-256:
+2f39629bffcec18f56c051fa23b415bb316bd733d124eec16e0fd21287f45b8b
+
+Verification summary:
+- 10/10 documented reproduction commands succeeded.
+- 32/32 expected checker outcomes matched.
+- 30 binary controls: zero observed misses and zero observed false alarms in the specified controls.
+- 2/2 N/A applicability controls matched.
+- Supplement manifest: 155/155 entries verified.

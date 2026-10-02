@@ -1,0 +1,19 @@
+case,family,expected,observed,matched,detail
+role_correct,source_role,PASS,PASS,True,published role and name match source
+role_wrong_location,source_role,FAIL,FAIL,True,published location 'header' != source location 'query'
+role_wrong_name,source_role,FAIL,FAIL,True,published name 'wrong-parameter' != source name 'item-query'
+lineage_comment_benign,source_role,PASS,PASS,True,benign comment assigned a non-executable role
+lineage_comment_as_alias,source_role,FAIL,FAIL,True,docstring assigned executable output-alias role
+guard_zero_correct,condition_disclosure,PASS,PASS,True,"guard, displayed denominator, and handling semantics align"
+guard_missing_denominator,condition_disclosure,FAIL,FAIL,True,displayed formula denominator is missing
+guard_wrong_denominator,condition_disclosure,FAIL,FAIL,True,guarded variable does not match displayed formula denominator
+guard_contradictory_text,condition_disclosure,FAIL,FAIL,True,reader-facing safeguard text contradicts the existence of handling
+guard_disabled_text,condition_disclosure,FAIL,FAIL,True,reader-facing safeguard text contradicts the existence of handling
+guard_nonpositive_correct,condition_disclosure,PASS,PASS,True,"guard, displayed denominator, and handling semantics align"
+guard_nonpositive_reduced_to_zero,condition_disclosure,FAIL,FAIL,True,non-positive guard reduced to zero-only wording
+conflict_routing_correct,conflict_routing,PASS,PASS,True,explicit conflict remains routed to Needs Review and Review Queue
+conflict_routing_suppressed,conflict_routing,FAIL,FAIL,True,Review Queue removed from an explicit conflict
+conflict_not_applicable,conflict_routing,N/A,N/A,True,benign non-conflict control
+authority_unresolved_clean,review_authority,PASS,PASS,True,unresolved page without certification wording
+authority_unresolved_certified,review_authority,FAIL,FAIL,True,certification wording beside unresolved status
+authority_validated_control,review_authority,N/A,N/A,True,resolved-status benign applicability control

@@ -1,0 +1,29 @@
+dossier,status,source_role_accuracy,condition_disclosure,representation_disagreement_preservation,review_authority_consistency
+audit_trail_completeness.html,Needs Review,PASS,N/A,N/A,FAIL
+catalyst_replacement_frequency.html,Needs Review,PASS,N/A,PASS,FAIL
+compressor_vibration_index.html,Needs Review,PASS,FAIL,PASS,FAIL
+cooling_water_deltat_c.html,Needs Review,PASS,N/A,N/A,FAIL
+customer_activity_index.html,Needs Review,PASS,N/A,N/A,FAIL
+daily_feedstock_throughput_tonsday.html,Validated,PASS,PASS,N/A,N/A
+ethylene_production_yield.html,Validated,FAIL,FAIL,N/A,N/A
+eu_data_export_volume.html,Needs Review,PASS,N/A,N/A,FAIL
+flare_emission_recovery_rate.html,Needs Review,FAIL,N/A,PASS,FAIL
+governed_eu_data_export.html,Validated,PASS,N/A,N/A,N/A
+governed_inventory_modification.html,Validated,PASS,N/A,N/A,N/A
+gross_margin_percentage.html,Needs Review,PASS,FAIL,PASS,FAIL
+hse_safety_incident_rate.html,Needs Review,PASS,N/A,PASS,FAIL
+inventory_modification_gap.html,Needs Review,PASS,N/A,N/A,FAIL
+kpi_flare_recovery_pct.html,Needs Review,PASS,PASS,N/A,FAIL
+maintenance_to_operating_cost_ratio.html,Needs Review,PASS,N/A,N/A,FAIL
+masked_customer_activity_index.html,Needs Review,PASS,N/A,N/A,FAIL
+mean_time_between_failures_mtbf.html,Validated,PASS,FAIL,N/A,N/A
+oee.html,Needs Review,PASS,N/A,N/A,FAIL
+onspec_rate.html,Validated,FAIL,PASS,N/A,N/A
+polymer_melt_flow_index_mfi_variance.html,Needs Review,FAIL,N/A,N/A,FAIL
+procurement_contract_compliance_rate.html,Needs Review,PASS,N/A,PASS,FAIL
+propylene_to_ethylene_pe_ratio.html,Needs Review,PASS,PASS,N/A,FAIL
+runtime_execution_latency.html,Needs Review,PASS,N/A,N/A,FAIL
+safe_execution_latency.html,Needs Review,PASS,N/A,N/A,FAIL
+signed_lineage_audit_trail.html,Validated,PASS,N/A,N/A,N/A
+specific_catalyst_cost_ton.html,Validated,PASS,PASS,N/A,N/A
+yield_percentage.html,Validated,PASS,FAIL,N/A,N/A

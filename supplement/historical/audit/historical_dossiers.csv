@@ -1,0 +1,19 @@
+dossier,sha256,status,lineage_defect,lineage_instances,guard_instances,guard_failures,guard_preserved,explicit_conflict,conflict_routing_ok,authority_defect
+catalyst_replacement_frequency.html,295b896a12223d3ecf9bca1147bb39d862ccc49ef4670da1b3480537696acaeb,Needs Review,False,0,0,0,0,True,True,True
+compressor_vibration_index.html,15e30956a26f0457b37d87ab4b933bdf5cf054c2299bf9f5ab064baf443287bc,Needs Review,False,0,1,1,0,True,True,True
+cooling_water_deltat_c.html,e529d81605cce3d6ec5186917e50724b78c2539053206fa0163f240e585475b7,Needs Review,False,0,0,0,0,False,False,True
+daily_feedstock_throughput_tonsday.html,5c97d79c250de6d17c008f91f6d1db0f2f79e018c3a174e8a90f38df7b979119,Validated,False,0,1,0,1,False,False,False
+ethylene_production_yield.html,78989737a21086247df0da91adb62289b5037765ab24415a59adcf702e0b6274,Validated,True,1,1,1,0,False,False,False
+flare_emission_recovery_rate.html,2ed119105f97dddab40414da2cc67e1f870a73af418b029a7e308068a61b56f4,Needs Review,True,9,0,0,0,True,True,True
+gross_margin_percentage.html,2e3574d2d4a52a0fe238c66c49feb698ff9f4fc432186821375d96ccd9374197,Needs Review,False,0,1,1,0,True,True,True
+hse_safety_incident_rate.html,5ac03ac9fd55793e50491fa298932c2ff110cc33f95210e36c3214966b8812f1,Needs Review,False,0,0,0,0,True,True,True
+kpi_flare_recovery_pct.html,b1cb1226b9c393598040f5710c24dbf37366893e29d49266d9fbc512ce2a7353,Needs Review,False,0,1,0,1,False,False,True
+maintenance_to_operating_cost_ratio.html,0bffd817c95e50cec1898d1f2aebe6788c2ab4de735080fb5c3123739259bdc4,Needs Review,False,0,0,0,0,False,False,True
+oee.html,b79693193240d272b2ae7b083223bef3c44311d2330fa1953cdaf987818ff349,Needs Review,False,0,0,0,0,False,False,True
+onspec_rate.html,4ecf1b381c31cd0e6df8fc645dbcabb38fc0889fb83227b48fd80367731dd632,Validated,True,1,1,0,1,False,False,False
+polymer_melt_flow_index_mfi_variance.html,e715b28c0002c8cc0c581390c7bfcd5d72605006f79d3b95b295946b971b6710,Validated,True,1,0,0,0,False,False,False
+procurement_contract_compliance_rate.html,d146450fed6bb72fd2dbdd43581aa6720dfa73b23fe61ff1a8cce934e2ab3227,Needs Review,False,0,0,0,0,True,True,True
+propylene_to_ethylene_pe_ratio.html,ce0494911fce368acb98d90d16c510121675efff861351d0066573cd9f6e9ba7,Needs Review,False,0,1,0,1,False,False,True
+sox_emissions_concentration_kgm3.html,6726dbb1ca3c12d755884b94a35400f6cc6f9a3bfe05232bd470bd147b15c755,Needs Review,False,0,0,0,0,False,False,True
+specific_catalyst_cost_ton.html,3e66e28adf460cf4f84d1a1197fc5063534228c900c100f6367ea26d9455309c,Validated,False,0,1,0,1,False,False,False
+yield_percentage.html,deeca9be2f63cc1413000a814cef653de8e0d8b8bdb8f6ed100d7be8e46a991a,Validated,False,0,1,1,0,False,False,False

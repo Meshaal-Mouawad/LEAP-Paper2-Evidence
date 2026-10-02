@@ -1,0 +1,15 @@
+case,family,expected,observed,matched,detail
+actual_guard_baseline,condition_disclosure,PASS,PASS,True,"guard, displayed denominator, and handling semantics align"
+actual_guard_missing_denominator,condition_disclosure,FAIL,FAIL,True,displayed formula denominator is missing
+actual_guard_wrong_denominator,condition_disclosure,FAIL,FAIL,True,guarded variable does not match displayed formula denominator
+actual_guard_contradictory_safeguard,condition_disclosure,FAIL,FAIL,True,reader-facing safeguard text contradicts the existence of handling
+actual_guard_heading_only_document_mutation,condition_disclosure,FAIL,FAIL,True,reparsed HTML safeguard='Zero-Division Guard:'; reader-facing safeguard contains only a heading and no handling semantics
+actual_yield_lineage_defect,source_role,FAIL,FAIL,True,Output alias: maps this expression to a in the result set.
+actual_yield_lineage_benign_label,source_role,PASS,PASS,True,Source context: supports the KPI definition or execution boundary.
+actual_conflict_routing_baseline,conflict_routing,PASS,PASS,True,actual page includes Needs Review and Review Queue
+actual_conflict_routing_suppressed,conflict_routing,FAIL,FAIL,True,in-memory negative control removes Review Queue
+actual_authority_certification_defect,review_authority,FAIL,FAIL,True,"certification phrases=['Certified metric dossier', 'certified formula', 'certifies the KPI definition', 'certified calculation expression', 'Print Certified Dossier', 'certified implementation path']"
+actual_authority_benign_control,review_authority,PASS,PASS,True,in-memory benign control removes certification wording while retaining Needs Review
+actual_external_role_baseline,external_source_role,PASS,PASS,True,published role and name match source
+actual_external_role_wrong_location,external_source_role,FAIL,FAIL,True,published location 'header' != source location 'query'
+actual_external_role_wrong_name,external_source_role,FAIL,FAIL,True,published name 'wrong-parameter' != source name 'item-query'

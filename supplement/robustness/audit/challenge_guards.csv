@@ -1,0 +1,2 @@
+page,source_file,text,variable,kind,displayed_denominator,verdict,reason
+emergency_shutdown_demand_rate.rst,challenge_inverse_threshold_direction.sql,"NULLIF(operating_months, 0)",operating_months,zero,Operating Months,preserved,"guard, displayed denominator, and handling semantics align"

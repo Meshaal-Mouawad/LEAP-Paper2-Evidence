@@ -1,0 +1,59 @@
+{
+  "label": "challenge",
+  "dossiers": 8,
+  "status": {
+    "needs_review": 6,
+    "validated": 2
+  },
+  "lineage_typing": {
+    "affected_dossiers": 1,
+    "visible_instances": 5
+  },
+  "guard_binding": {
+    "guard_instances": 1,
+    "affected_dossiers": 0,
+    "failure_instances": 0,
+    "preserved_instances": 1
+  },
+  "authority_language": {
+    "eligible_needs_review": 6,
+    "affected_dossiers": 6
+  },
+  "conflict_routing": {
+    "eligible_conflict_signal": 5,
+    "preserved": 5
+  },
+  "role_detail": [
+    {
+      "page": "permit_to_work_closure_compliance.rst",
+      "source_file": "challenge_owner_domain_source_conflict.abap",
+      "errors": [
+        {
+          "code": "* KPI: Permit To Work Closure Compliance",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* Business Definition: Measures percentage of PTW records closed within required safety window.",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* Accountable Owner: HSE Data Owner",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* Source System: SAP EHS",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        },
+        {
+          "code": "* Direction: Higher is better",
+          "description": "Calculation expression: combines source variables used by the formal formula.",
+          "reason": "comment_or_docstring_assigned_executable_role"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "upstream_repository": "fastapi/fastapi",
+  "upstream_commit": "33d411dbc3236275dd64d200bfe18d5d60a49b2e",
+  "fastapi_version": "0.141.1",
+  "pydantic_version": "2.13.4",
+  "source_provenance": {
+    "query_param_constraints.py": {
+      "upstream_path": "docs_src/query_params_str_validations/tutorial010_an_py310.py",
+      "git_blob_sha1": "775095bda86ae8d0296d961eadc1e164d7016756",
+      "sha256": "c365909dda8da8a296b5534c9e58f73240a5d30dca46a65bee3b43e5b89748a2"
+    },
+    "path_numeric_constraints.py": {
+      "upstream_path": "docs_src/path_params_numeric_validations/tutorial006_an_py310.py",
+      "git_blob_sha1": "426ec3776446bb49092be1e511833cd6162b017a",
+      "sha256": "f6941282c5fd391d457d9e89679a6224e9882f6c54ab13da95701ba8142ebfb0"
+    },
+    "body_field_constraints.py": {
+      "upstream_path": "docs_src/body_fields/tutorial001_an_py310.py",
+      "git_blob_sha1": "c9d99e1c2b373bbaec9089715814655d98cc9a97",
+      "sha256": "56bc9126f371dc8f6781410733452d13392551da6908eb50dffb38a80e6154aa"
+    },
+    "deprecated_operation.py": {
+      "upstream_path": "docs_src/path_operation_configuration/tutorial006_py310.py",
+      "git_blob_sha1": "7c1aa9b206054df7a543d3b0b74621120ec8e3e1",
+      "sha256": "5056b0c416045694765968b7a4f7c3dfbaffe4a1cee1947826b03add7b1ea8a1"
+    }
+  },
+  "generated_sha256": {
+    "body_field_constraints.openapi.json": "64b82a734c9b09cd9391f02a826db81298dca62ad08970b9b10a135981a5af57",
+    "deprecated_operation.openapi.json": "761dba93391ec4c9d7736fd34c08855bd496d16b4d7e97bb29eb9f00ed6b08e3",
+    "path_numeric_constraints.openapi.json": "ba6695be6a98589867cee6a7ad33a9245dbf968155f5d2a42feaeb7fa839b0ba",
+    "query_param_constraints.openapi.json": "148929ba0f44f3ebb7194af124964f673edc9e1053109d0617c618ce8509a7f6"
+  },
+  "runtime": {
+    "query_param_constraints.py": {
+      "valid": 200,
+      "too_short": 422,
+      "pattern_fail": 422
+    },
+    "path_numeric_constraints.py": {
+      "valid": 200,
+      "path_low": 422,
+      "size_high": 422
+    },
+    "body_field_constraints.py": {
+      "valid": 200,
+      "price_fail": 422,
+      "description_fail": 422
+    },
+    "deprecated_operation.py": {
+      "elements": 200,
+      "items": 200
+    }
+  },
+  "direct_cells": 16,
+  "direct_applicable": 7,
+  "direct_pass": 7,
+  "direct_fail": 0,
+  "direct_na": 9,
+  "status_analogue_pass": 2,
+  "status_analogue_total": 2,
+  "role_negative_controls": [
+    {
+      "control": "wrong_location",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "reason": "published location 'header' != source location 'query'"
+    },
+    {
+      "control": "wrong_name",
+      "expected": "FAIL",
+      "observed": "FAIL",
+      "reason": "published name 'wrong-parameter' != source name 'item-query'"
+    }
+  ]
+}

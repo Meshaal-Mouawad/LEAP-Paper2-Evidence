@@ -1,0 +1,83 @@
+[
+  {
+    "dossier": "ethylene_production_yield.html",
+    "errors": [
+      {
+        "code": "\"\"\"Calculates ethylene production yield as a percentage of feedstock input.\"\"\"",
+        "description": "Output alias: maps this expression to a in the result set.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      }
+    ]
+  },
+  {
+    "dossier": "flare_emission_recovery_rate.html",
+    "errors": [
+      {
+        "code": "* KPI: Flare Emission Recovery Rate",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Description: Measures the fraction of flared gas captured and returned to process.",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Objective: Reduce atmospheric flaring and improve environmental compliance under HSE mandate.",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Input: Gas recovered (m3), Total gas flared (m3)",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Unit: %",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Reporting Source: SAP PM Flare Management, DCS historian",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Accountable Owner: HSE Data Owner",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Used In: HSE Compliance Report, Environmental Dashboard",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      },
+      {
+        "code": "* Owner conflict: Business comment declares HSE Data Owner as accountable,",
+        "description": "Output alias: maps this expression to accountable in the result set.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      }
+    ]
+  },
+  {
+    "dossier": "onspec_rate.html",
+    "errors": [
+      {
+        "code": "CAST(100.0 * on_spec_batches / NULLIF(total_batches, 0) AS FLOAT) AS on_spec_percentage",
+        "description": "Output alias: maps this expression to FLOAT in the result set.",
+        "reason": "cast_type_labeled_as_output_alias",
+        "actual_alias": "on_spec_percentage"
+      }
+    ]
+  },
+  {
+    "dossier": "polymer_melt_flow_index_mfi_variance.html",
+    "errors": [
+      {
+        "code": "* KPI: Polymer Melt Flow Index (MFI) Variance",
+        "description": "Calculation expression: combines source variables used by the formal formula.",
+        "reason": "comment_or_docstring_assigned_executable_role"
+      }
+    ]
+  }
+]

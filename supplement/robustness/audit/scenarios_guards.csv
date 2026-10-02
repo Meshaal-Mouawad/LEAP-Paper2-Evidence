@@ -1,0 +1,2 @@
+page,source_file,text,variable,kind,displayed_denominator,verdict,reason
+nullif_denominator_formula.rst,33_nullif_denominator.sql,"NULLIF(B, 0)",B,zero,B,preserved,"guard, displayed denominator, and handling semantics align"

@@ -1,0 +1,86 @@
+Cleared previous workspace artifacts.
+Reset prior workspace pages.
+Reading enterprise metric sources in: /Users/meshaalmouawad/AI-Powered_KPI_Extractor_Interactive_Bluebook_Generator/sample_project
+Metric inventory: 28 governed business metrics (all files: 32, eligible files: 32, implementation files: 30)
+Extraction promotion gate: 2 weak KPI-like candidates routed to Extraction Review.
+Governance layer: assigned RACI ownership using local rules and overrides.
+Business definition phase: preparing 28 governed metrics using deterministic detail preparation...
+Business definition ready for 'Flare Emission Recovery Rate' (0.00s).
+Business definition ready for 'Compressor Vibration Index' (0.00s).
+Business definition ready for 'kpi flare recovery pct' (0.00s).
+Business definition ready for 'Signed Lineage Audit Trail' (0.00s).
+Business definition ready for 'HSE Safety Incident Rate' (0.00s).
+Business definition ready for 'Gross Margin Percentage' (0.00s).
+Business definition ready for 'Propylene to Ethylene (P/E) Ratio' (0.00s).
+Business definition ready for 'Ethylene Production Yield' (0.00s).
+Business definition ready for 'Cooling Water Delta-T (°C)' (0.00s).
+Business definition ready for 'Yield Percentage (%)' (0.00s).
+Business definition ready for 'Inventory Modification Gap' (0.00s).
+Business definition ready for 'Mean Time Between Failures (MTBF)' (0.00s).
+Business definition ready for 'Safe Execution Latency' (0.00s).
+Business definition ready for 'Catalyst Replacement Frequency' (0.00s).
+Business definition ready for 'On-Spec Rate (%)' (0.00s).
+Business definition ready for 'EU Data Export Volume' (0.00s).
+Business definition ready for 'Polymer Melt Flow Index (MFI) Variance' (0.00s).
+Business definition ready for 'Maintenance to Operating Cost Ratio' (0.00s).
+Business definition ready for 'Governed Inventory Modification' (0.00s).
+Business definition ready for 'Procurement Contract Compliance Rate' (0.00s).
+Business definition ready for 'Daily Feedstock Throughput (tons/day)' (0.00s).
+Business definition ready for 'OEE %' (0.00s).
+Business definition ready for 'Runtime Execution Latency' (0.00s).
+Business definition ready for 'Audit Trail Completeness' (0.00s).
+Business definition ready for 'Customer Activity Index' (0.00s).
+Business definition ready for 'Masked Customer Activity Index' (0.00s).
+Business definition ready for 'Governed EU Data Export' (0.00s).
+Business definition ready for 'Specific Catalyst Cost ($/ton)' (0.00s).
+Prepared dossier for 'Flare Emission Recovery Rate'.
+Prepared dossier for 'Compressor Vibration Index'.
+Prepared dossier for 'kpi flare recovery pct'.
+Prepared dossier for 'Signed Lineage Audit Trail'.
+Prepared dossier for 'HSE Safety Incident Rate'.
+Prepared dossier for 'Gross Margin Percentage'.
+Prepared dossier for 'Propylene to Ethylene (P/E) Ratio'.
+Prepared dossier for 'Ethylene Production Yield'.
+Prepared dossier for 'Cooling Water Delta-T (°C)'.
+Prepared dossier for 'Yield Percentage (%)'.
+Prepared dossier for 'Inventory Modification Gap'.
+Prepared dossier for 'Mean Time Between Failures (MTBF)'.
+Prepared dossier for 'Safe Execution Latency'.
+Prepared dossier for 'Catalyst Replacement Frequency'.
+Prepared dossier for 'On-Spec Rate (%)'.
+Prepared dossier for 'EU Data Export Volume'.
+Prepared dossier for 'Polymer Melt Flow Index (MFI) Variance'.
+Prepared dossier for 'Maintenance to Operating Cost Ratio'.
+Prepared dossier for 'Governed Inventory Modification'.
+Prepared dossier for 'Procurement Contract Compliance Rate'.
+Prepared dossier for 'Daily Feedstock Throughput (tons/day)'.
+Prepared dossier for 'OEE %'.
+Prepared dossier for 'Runtime Execution Latency'.
+Prepared dossier for 'Audit Trail Completeness'.
+Prepared dossier for 'Customer Activity Index'.
+Prepared dossier for 'Masked Customer Activity Index'.
+Prepared dossier for 'Governed EU Data Export'.
+Prepared dossier for 'Specific Catalyst Cost ($/ton)'.
+Business definition phase wall time: 0.01s for 28 KPIs using deterministic detail preparation.
+Deterministic detail preparation latency (sum across KPIs): 0.00s; avg per KPI latency: 0.00s; avg wall time per KPI (wall/num): 0.00s
+======================================================================
+KPI PORTFOLIO SUMMARY
+Workspace items inventoried: 32
+Workspace files inventoried: 32
+Workspace directories inventoried: 0
+Eligible files after exclusions: 32
+Implementation files evaluated: 30
+Binary/image files ignored: 0
+Unsupported files ignored: 0
+Non-metric routines ignored: 3
+Candidate review queue: 2
+Configured ignored files: 2
+Configured ignored directories: 0
+Implementation lines evaluated: 342
+Enterprise KPIs: 28
+Governed metrics: 28
+Average confidence: 91.1%
+======================================================================
+Workspace navigation updated with discovery workspace, RACI directory, and 28 KPI dossiers.
+Workspace build successful. Structurally resolved duplicate headings on 32 pages.
+Total wall time: 1.36s

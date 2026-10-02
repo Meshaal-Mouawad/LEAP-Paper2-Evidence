@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "matched": 2,
+  "total": 2,
+  "files": [
+    {
+      "file": "conflict_formula_margin.py",
+      "expected": "78cfb5e20447f19d36c1b25adcdf3d5542edc09199194f97bddabb6963067ef1",
+      "actual": "78cfb5e20447f19d36c1b25adcdf3d5542edc09199194f97bddabb6963067ef1",
+      "passed": true
+    },
+    {
+      "file": "control_no_conflict_yield.py",
+      "expected": "bcbe6f52920321e544374308ebcf180a12875b8752c2420c94aa036291195930",
+      "actual": "bcbe6f52920321e544374308ebcf180a12875b8752c2420c94aa036291195930",
+      "passed": true
+    }
+  ]
+}

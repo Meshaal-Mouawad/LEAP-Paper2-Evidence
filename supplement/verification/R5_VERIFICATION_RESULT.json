@@ -1,0 +1,176 @@
+{
+  "passed": 27,
+  "total": 27,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "rule fixtures 18/18",
+      "passed": true,
+      "detail": "{'fixture_cases': 18, 'matched': 18, 'mismatched': 0}"
+    },
+    {
+      "check": "rule fixtures zero misses/false alarms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "artifact-derived controls 14/14",
+      "passed": true,
+      "detail": "{'cases': 14, 'matched': 14, 'mismatched': 0}"
+    },
+    {
+      "check": "artifact-derived controls zero misses/false alarms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "predeclared control oracles",
+      "passed": true,
+      "detail": "{'status': 'PASS', 'checks': [{'oracle': 'CHECKER_CONTROL_ORACLE.csv', 'output': 'CHECKER_VALIDATION_CASES.csv', 'oracle_cases': 18, 'missing': [], 'extra': [], 'mismatches': [], 'passed': True}, {'oracle': 'ARTIFACT_MUTATION_ORACLE.csv', 'output': 'MUTATED_ARTIFACT_CONTROLS.csv', 'oracle_cases': 14, 'missing': [], 'extra': [], 'mismatches': [], 'passed': True}], 'interpretation': 'Control labels are read from predeclared oracle tables separate from the released checker output.'}"
+    },
+    {
+      "check": "heading-only production-adapter regression",
+      "passed": true,
+      "detail": [
+        {
+          "case": "actual_guard_heading_only_document_mutation",
+          "family": "condition_disclosure",
+          "expected": "FAIL",
+          "observed": "FAIL",
+          "matched": true,
+          "detail": "reparsed HTML safeguard='Zero-Division Guard:'; reader-facing safeguard contains only a heading and no handling semantics"
+        }
+      ]
+    },
+    {
+      "check": "primary 28 dossiers",
+      "passed": true,
+      "detail": "{'dossiers': 28, 'needs_review': 19, 'validated': 9, 'generation_log_sha256': 'b4efc7bcfea301ca376c24ffff9c71216a1374eb0f715c466b37a01d762d989f'}"
+    },
+    {
+      "check": "primary three defect classes",
+      "passed": true,
+      "detail": "{'lineage_typing': {'class_count': 1, 'affected_dossiers': 4, 'visible_instances': 12, 'dossiers': ['ethylene_production_yield.html', 'flare_emission_recovery_rate.html', 'onspec_rate.html', 'polymer_melt_flow_index_mfi_variance.html']}, 'guard_to_safeguard_binding': {'class_count': 1, 'guard_instances': 10, 'affected_dossiers': 5, 'failure_instances': 5, 'preserved_instances': 5}, 'authority_language_template': {'class_count': 1, 'eligible_unresolved_dossiers': 19, 'affected_dossiers': 19}}"
+    },
+    {
+      "check": "primary guard 5 fail 5 preserve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary conflict mechanism 6/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "historical 18 dossiers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "historical lineage 4/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "historical guard 4 fail 5 preserve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "historical authority 12/12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "historical conflict 6/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "same four lineage dossiers across LEAP states",
+      "passed": true,
+      "detail": [
+        "ethylene_production_yield.html",
+        "flare_emission_recovery_rate.html",
+        "onspec_rate.html",
+        "polymer_melt_flow_index_mfi_variance.html"
+      ]
+    },
+    {
+      "check": "same six conflict dossiers across LEAP states",
+      "passed": true,
+      "detail": [
+        "catalyst_replacement_frequency.html",
+        "compressor_vibration_index.html",
+        "flare_emission_recovery_rate.html",
+        "gross_margin_percentage.html",
+        "hse_safety_incident_rate.html",
+        "procurement_contract_compliance_rate.html"
+      ]
+    },
+    {
+      "check": "scenario reproduces lineage+authority not guard",
+      "passed": true,
+      "detail": "{'label': 'scenarios', 'dossiers': 29, 'status': {'needs_review': 11, 'validated': 18}, 'lineage_typing': {'affected_dossiers': 1, 'visible_instances': 8}, 'guard_binding': {'guard_instances': 1, 'affected_dossiers': 0, 'failure_instances': 0, 'preserved_instances': 1}, 'authority_language': {'eligible_needs_review': 11, 'affected_dossiers': 11}, 'conflict_routing': {'eligible_conflict_signal': 2, 'preserved': 2}, 'role_detail': [{'page': 'clean_abap_kpi.rst', 'source_file': '03_clean_abap_kpi.abap', 'errors': [{'code': '* Expected LEAP Result:', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* - Governance Status: Validated', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* - Review Queue: No', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* - Expected Signal(s): None', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* - Expected Compliance Rule(s): None', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* KPI: Clean ABAP KPI', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* Business Objective: Track maintenance execution schedule variance.', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* Owner: Enterprise Data Owner', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}]}]}"
+    },
+    {
+      "check": "challenge reproduces lineage+authority not guard",
+      "passed": true,
+      "detail": "{'label': 'challenge', 'dossiers': 8, 'status': {'needs_review': 6, 'validated': 2}, 'lineage_typing': {'affected_dossiers': 1, 'visible_instances': 5}, 'guard_binding': {'guard_instances': 1, 'affected_dossiers': 0, 'failure_instances': 0, 'preserved_instances': 1}, 'authority_language': {'eligible_needs_review': 6, 'affected_dossiers': 6}, 'conflict_routing': {'eligible_conflict_signal': 5, 'preserved': 5}, 'role_detail': [{'page': 'permit_to_work_closure_compliance.rst', 'source_file': 'challenge_owner_domain_source_conflict.abap', 'errors': [{'code': '* KPI: Permit To Work Closure Compliance', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* Business Definition: Measures percentage of PTW records closed within required safety window.', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* Accountable Owner: HSE Data Owner', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* Source System: SAP EHS', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}, {'code': '* Direction: Higher is better', 'description': 'Calculation expression: combines source variables used by the formal formula.', 'reason': 'comment_or_docstring_assigned_executable_role'}]}]}"
+    },
+    {
+      "check": "external source blobs verified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "external direct 7/7",
+      "passed": true,
+      "detail": "{'direct_applicable': 7, 'direct_pass': 7, 'direct_fail': 0}"
+    },
+    {
+      "check": "external nine N/A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "external status analogues 2/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "external wrong-role/name controls rejected",
+      "passed": true,
+      "detail": [
+        {
+          "control": "wrong_location",
+          "expected": "FAIL",
+          "observed": "FAIL",
+          "reason": "published location 'header' != source location 'query'"
+        },
+        {
+          "control": "wrong_name",
+          "expected": "FAIL",
+          "observed": "FAIL",
+          "reason": "published name 'wrong-parameter' != source name 'item-query'"
+        }
+      ]
+    },
+    {
+      "check": "external invalid query constraints return 422",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "external invalid numeric constraints return 422",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "external invalid body constraints return 422",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

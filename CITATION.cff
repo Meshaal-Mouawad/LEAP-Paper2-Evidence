@@ -1,16 +1,17 @@
 cff-version: 1.2.0
-message: "If you use this research artifact, please cite the associated paper."
-title: "LEAP Paper 2: Explanation Fidelity Evidence"
+message: "If you use this research artifact, please cite the associated manuscript."
+title: "From Source Linkage to Explanation Fidelity: Research Artifact"
 type: dataset
 authors:
   - family-names: "Mouawad"
     given-names: "Meshaal Obaid"
     orcid: "https://orcid.org/0000-0002-1152-8324"
-version: "1.0.0"
-date-released: "2026-09-29"
+date-released: "2026-10-02"
 keywords:
-  - "key performance indicators"
   - "software documentation"
+  - "program comprehension"
+  - "provenance"
   - "traceability"
-  - "knowledge engineering"
+  - "key performance indicators"
   - "explanation fidelity"
+  - "knowledge engineering"
